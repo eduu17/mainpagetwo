@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.cupcakeInfo__first {
+  width: 14ch;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 3px solid #000;
+  margin: 1rem 3rem;
+}
+
+.order__cupcake {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cupcakeInfo_image {
+  width: 100%;
+}
+
+.cupcakeInfo__title {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.cupcakeInfo--button {
+  font-size: 0.875rem;
+  align-self: center;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.mailMessage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1.875rem;
+}
+
+.mailMessage_title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.mailMessage--content {
+  font-weight: 400;
+}
+
+.mailMessage > .cupcakeInfo--button {
+  align-self: flex-start;
+}
+
+.contactInfo {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 1.875rem 1rem 1.875rem;
+}
+
+.contatInfo__content {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.contactInfo__text {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.contactInfo__text em {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
